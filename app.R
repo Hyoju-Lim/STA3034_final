@@ -77,7 +77,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       helpText(p("날짜를 조절하여 행정구역별 지진 발생 횟수를 확인하세요. 1978년 8월 30일부터 2021년 4월 17일까지의 행정구역별 지진 발생 횟수 총합 데이터를 볼 수 있습니다."),
-               em("TIPS: 상세한 변화 추이를 눈으로 보고 싶다면, 날짜 구간의 폭을 좁혀보세요!")),
+               em("TIPS: 상세한 변화 추이를 눈으로 보고 싶다면, 날짜 구간의 폭을 5-10년 정도로 좁혀보세요!")),
       
       
       dateRangeInput("daterange", "Date Range : ",
